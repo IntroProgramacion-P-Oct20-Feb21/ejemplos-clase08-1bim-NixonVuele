@@ -29,22 +29,27 @@ public class Ejemplo03 {
         tipoRegion = entrada.nextInt();
         
         if(tipoRegion==1){
-            region = "Región Sierra";
+            region = "Usted selecciono: Región Sierra";
         }else{
             if (tipoRegion==2) {
-                region = "Región Costa";
+                region = "Usted selecciono: Región Costa";
             }else{
                 if (tipoRegion==3) {
-                    region = "Región Amazónica";
+                    region = "Usted selecciono: Región Amazónica";
                 }else{
                     if (tipoRegion==4) {
-                        region = "Región Insular";
+                        region = "Usted selecciono: Región Insular";
+                    }else{
+                        if (tipoRegion>=5) {
+                            region = "Error, no existe region";
+                   
+                        }
                     }
                 }
             }
         }
         
-        System.out.printf("Error, no existe region\n", region);
+        System.out.printf("%S\n", region);
     }
     
 }
