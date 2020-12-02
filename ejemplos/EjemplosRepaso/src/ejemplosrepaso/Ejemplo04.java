@@ -45,6 +45,9 @@ public class Ejemplo04 {
             case 4:
                 region = "Región Insular";
                 break;
+            default:
+                region = "Error, no existe región.";
+                break;
         }
 
         System.out.printf("Usted seleccionó: %s\n", region);

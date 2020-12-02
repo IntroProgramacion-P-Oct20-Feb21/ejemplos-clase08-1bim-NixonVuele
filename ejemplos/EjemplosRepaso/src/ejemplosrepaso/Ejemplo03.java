@@ -18,7 +18,7 @@ public class Ejemplo03 {
     public static void main(String[] args) {
         // 
         Scanner entrada = new Scanner(System.in);
-        String region = "";
+        String region ;
         int tipoRegion;
         System.out.println("Ingrese el tipo los siguientes datos para imprimir "
                 + "la región del Ecuador.\n"
@@ -43,11 +43,11 @@ public class Ejemplo03 {
                         region = "Error, no existe region";
                    
                     }
-                }
+                }        
             }
         }
-        
-        System.out.printf("%S\n", region);
+     
+        System.out.printf("%s\n", region);
     }
     
 }
