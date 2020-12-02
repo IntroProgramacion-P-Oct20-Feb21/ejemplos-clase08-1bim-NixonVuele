@@ -28,7 +28,7 @@ public class Ejemplo02 {
         System.out.printf("Las entradas son: "
                 + "ciudad %s, pais %s\nLa salida del programa debe ser asi:\n"
                 + "%s,situada en el sur del pais"
-                + "\n\n\t%s\n", ciudad, pais,ciudad, pais=pais.toUpperCase());
+                + "\n\n\t%s\n", ciudad, pais,ciudad, pais.toUpperCase());
     }
     
 }
