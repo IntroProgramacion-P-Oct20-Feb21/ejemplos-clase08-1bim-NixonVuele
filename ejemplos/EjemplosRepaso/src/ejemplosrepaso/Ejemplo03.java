@@ -18,8 +18,6 @@ public class Ejemplo03 {
     public static void main(String[] args) {
         // 
         Scanner entrada = new Scanner(System.in);
-        String ciudad;
-        String pais;
         String region = "";
         int tipoRegion;
         System.out.println("Ingrese el tipo los siguientes datos para imprimir "
@@ -46,7 +44,7 @@ public class Ejemplo03 {
             }
         }
         
-        System.out.printf("Usted seleccionó: %s\n", region);
+        System.out.printf("Error,55 no existe region\n", region);
     }
     
 }
