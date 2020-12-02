@@ -44,7 +44,7 @@ public class Ejemplo03 {
             }
         }
         
-        System.out.printf("Error,55 no existe region\n", region);
+        System.out.printf("Error, no existe region\n", region);
     }
     
 }
