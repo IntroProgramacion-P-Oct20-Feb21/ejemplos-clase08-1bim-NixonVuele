@@ -40,10 +40,8 @@ public class Ejemplo03 {
                     if (tipoRegion==4) {
                         region = "Usted selecciono: Región Insular";
                     }else{
-                        if (tipoRegion>=5) {
-                            region = "Error, no existe region";
+                        region = "Error, no existe region";
                    
-                        }
                     }
                 }
             }
